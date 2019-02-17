@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+squares=[1,2,4,9,16,25]
+plt.plot(squares,linewidth=5)
+
+#设置标题
+plt.title("2*vaule",fontsize=240)
+plt.xlabel("Value",fontsize=14)
+plt.ylabel("vaule",fontsize=14)
+
+#设置刻度标记大小
+plt.tick_params(axis='both',labelsize=14)#可用参数是axis='both';'x';'y’表示的是修改横纵坐标
+
+plt.show()
+
